@@ -26,6 +26,13 @@ pipeline{
                     }
                 }
         }
+
+        stage('test'){
+            steps{
+                sh 'This is test stage'
+            }
+
+        }
         
         stage('deploy'){
             steps{
