@@ -29,7 +29,7 @@ pipeline{
 
         stage('test'){
             steps{
-                sh 'This is test stage'
+                echo 'This is test stage'
             }
 
         }
